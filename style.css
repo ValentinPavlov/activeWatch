@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=K2D&display=swap');
+
+.watch_allover {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    height: 700px;
+    background: #222222;
+    border: 10px solid #828282;
+    border-radius: 50px;
+}
+
+.watch_time {
+    display: flex;
+    width: 100%;
+    justify-content: end;
+}
+
+.watch_time .hour {
+    font-family: 'K2D';
+    font-size: 30px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin: 51px 47px 0 0;
+}
+
+.watch_features {
+    margin: auto;
+    background-image: url(images/sliders.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 450px;
+    height: 450px;
+}
+
+.watch_year {
+    width: 102px;
+    height: 26px;
+    font-family: 'K2D';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.watch_year {
+    margin: 0;
+    width: 104px;
+    height: 26px;
+    font-family: 'K2D';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.unlock_line {
+    margin: 12px 0 40px 0;
+    width: 230px;
+    height: 10px;
+    background: #FFFFFF;
+    border-radius: 1px;
+}
